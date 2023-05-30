@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/71f6d42350.js" crossorigin="anonymous"></script>
+        <title>University Website Design</title>
+    </head>
+    <body>
+
+
+
+
+<!---------------------------------header--------------------------------------------------------------------------------->
+
+
+
+            <section class="sub-header">
+                <nav>
+                    <a href="index.html"><img src="images/logo1.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+
+                    </div>
+                    <i class="fas fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>About Us</h1>
+
+        </section>
+
+
+
+<!---------------------------------------about us content----------------------------------------------------------------->
+
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are Africa's Largest University</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                    elit. Aperiam blanditiis, excepturi voluptas illum ut voluptatem 
+                    expedita explicabo iste deserunt et Lorem, 
+                    ipsum dolor sit amet consectetur adipisicing elit. Minima exercitationem reprehenderit
+                    at impedit eligendi assumenda beatae
+                    eius aliquam! Sunt, sapiente. ex esse eaque hic recusandae 
+                    assumenda dolore? Labore commodi iure quidem, eligendi nam provident 
+                    sapiente consectetur, aperiam minima quo explicabo ad. Eveniet, fugiat? Magnam, culpa neque! Sit nemo
+                    illum dolores corrupti molestias doloribus, 
+                    esse maxime minus dolore dicta, recusandae fugit.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/About2.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+<!------------------------------------------Footer------------------------------------------------------------>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Reiciendis animi tempora tempore aspernatur <br> laborum dolorem sed iusto 
+            voluptates lorem repellendus commodi.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> <br> by Maduabuchi.</p>
+    </section>
+
+
+
+
+<!------------- Javascript for Toggle Menu ----------------------------------------------------------------->
+
+
+
+
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+    </body>
+</html>
